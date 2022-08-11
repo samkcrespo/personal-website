@@ -15,15 +15,15 @@ function Home2() {
               Who Am <span className="teal"> I? </span>
             </h1>
             <p className="home-about-body">
-              <br />I am a Software Engineer with a passion for science and
-              technology. I am a Washington resident who enjoys coding,
+              <br />I am a Software Engineer with a passion for problem solving
+              and technology. I am a Washington resident who enjoys coding,
               exploring the beauty that this state has to offer, and spending
               time with family.
             </p>
-            {/*and
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+            and
+            <i>
+              <b className="purple"> React.js and Next.js</b>
+            </i>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

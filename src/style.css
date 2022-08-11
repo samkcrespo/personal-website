@@ -654,3 +654,7 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.tech-text {
+  font-size: 15px;
+}
