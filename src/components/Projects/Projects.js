@@ -21,7 +21,12 @@ function Projects() {
             />
           </Col>
           <Col md={4} className="project-card">
-            <ProjectCard imgPath="" title="" description="" ghLink="" />
+            <ProjectCard
+              imgPath=""
+              title="Volunteer Network"
+              description=""
+              ghLink="https://github.com/samkcrespo/Phase-4-react-rails-api-project-backend"
+            />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard imgPath="" title="" description="" ghLink="" />
