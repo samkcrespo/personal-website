@@ -13,7 +13,7 @@ function AboutCard() {
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}></p>
-          <footer className="blockquote-footer">Marie Curie</footer>
+          <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
     </Card>

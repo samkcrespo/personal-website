@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/samphoto.png";
+import headshot from "../../Assets/samheadshot.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
@@ -20,14 +21,10 @@ function Home2() {
               exploring the beauty that this state has to offer, and spending
               time with family.
             </p>
-            and
-            <i>
-              <b className="purple"> React.js and Next.js</b>
-            </i>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={headshot} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
