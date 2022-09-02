@@ -6,15 +6,34 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hello there! I am <span className="teal">Samantha Crespo </span>
-            <br />I am a Software Engineer.
-          </p>
+        {/* <blockquote className="blockquote mb-0"> */}
+        <h2 style={{ textAlign: "center" }}>
+          Hello, my name is <span className="teal">Sam. </span>
+          <br />
+        </h2>
+        <p style={{ textAlign: "center" }}>
+          I'm a <span className="teal"> Full-stack </span>Software Engineer
+          <span className="teal"></span>
+          <br />
+        </p>
+        <p style={{ textAlign: "center" }}>
+          I like to
+          <span className="teal"> design and develop </span>
+          web applications.
+          <br />
+        </p>
+        <p style={{ textAlign: "center" }}>
+          I enjoy both frontend and backend development
+          <span className="teal"> equally.</span>
+          <br />
+        </p>
+        <p style={{ textAlign: "justify" }}>
+          <br />
+        </p>
 
-          <p style={{ color: "rgb(155 126 172)" }}></p>
-          <footer className="blockquote-footer"></footer>
-        </blockquote>
+        <p style={{ color: "rgb(155 126 172)" }}></p>
+        {/* <footer className="blockquote-footer"></footer> */}
+        {/* </blockquote> */}
       </Card.Body>
     </Card>
   );

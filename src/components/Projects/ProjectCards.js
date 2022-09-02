@@ -15,10 +15,8 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsPaperclip /> &nbsp;
-          {props.isComp ? "Certificate" : "GitHub"}
+          {props.certificate ? "Certificate" : "GitHub"}
         </Button>
-        {"\n"}
-        {"\n"}
 
         {!props.isComp && props.demoLink && (
           <Button

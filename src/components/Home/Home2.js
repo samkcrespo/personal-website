@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/samphoto.png";
+// import myImg from "../../Assets/samphoto.png";
 import headshot from "../../Assets/samheadshot.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
@@ -16,10 +16,26 @@ function Home2() {
               Who Am <span className="teal"> I? </span>
             </h1>
             <p className="home-about-body">
-              <br />I am a Software Engineer with a passion for problem solving
-              and technology. I am a Washington resident who enjoys coding,
-              exploring the beauty that this state has to offer, and spending
-              time with family.
+              <br />I am a Software Engineer with a passion for desiging and
+              building applications. Programming is an art, and I enjoy bringing
+              my ideas to life!
+              <p>
+                {" "}
+                While my path here has been non-linear, I have always been a
+                creative individual - now with the ability to implement my
+                creativity, sales and customer service experience into a career
+                that doesn't feel much like a job at all.
+              </p>
+              <p>
+                {" "}
+                I enjoy contributing to open-source projects and freelancing
+                while searching for my next opportunity.
+              </p>
+              <p>
+                When I'm not coding I enjoy hiking, playing video games, while
+                spending time with my husband and our two amazing dogs - a blue
+                heeler and belgian malinois named Mo & Zeik.
+              </p>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

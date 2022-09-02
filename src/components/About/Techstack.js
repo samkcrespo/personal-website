@@ -2,9 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 // import { CgCPlusPlus } from "react-icons/cg";
 import { DiJavascript1, DiReact, DiNodejs, DiCss3 } from "react-icons/di";
-import { Tooltip, Button } from "@mui/material";
+// import { Tooltip, Button } from "@mui/material";
 
 import {
+  SiCsharp,
   SiHtml5,
   SiNpm,
   SiRuby,
@@ -15,6 +16,7 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiGithub,
+  SiVisualstudio,
 } from "react-icons/si";
 // import { GrHostMaintenance } from "react-icons/gr";
 
@@ -62,12 +64,20 @@ function Techstack() {
         <p className="tech-text">Ruby on Rails</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
+        <p className="tech-text">C#</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiNpm />
         <p className="tech-text">NPM</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
         <p className="tech-text">Linux</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio />
+        <p className="tech-text">Visual Studio</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
