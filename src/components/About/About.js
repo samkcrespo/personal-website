@@ -22,9 +22,7 @@ function About() {
               paddingBottom: "0px",
             }}
           >
-            {/* <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Who am <strong className="teal">I?</strong>
-            </h1> */}
+            
             <Aboutcard />
           </Col>
           <Col
@@ -32,7 +30,7 @@ function About() {
             style={{ paddingTop: "0px", paddingBottom: "0px" }}
             className="about-img"
           >
-            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
+           
           </Col>
         </Row>
         <h1 className="project-heading">
