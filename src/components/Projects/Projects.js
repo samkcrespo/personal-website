@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
 import flatironCert from "../../Assets/flatironcertificate.jpg";
 
 function Projects() {
@@ -44,7 +45,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={{ flatironCert }}
+              imgPath="../../Assets/flatironcertificate.jpg"
               title="Flatiron School"
               description="Certificate of completion for Flatiron's Software Engineering program"
               ghLink=""

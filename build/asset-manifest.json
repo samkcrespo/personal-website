@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2abf29d.css",
+    "main.js": "/static/js/main.81856c4e.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/darkpink_headshot-modified.png": "/static/media/darkpink_headshot-modified.c1176b4df91c6c0ebe34.png",
+    "static/media/Samantha_Crespo_Resume.pdf": "/static/media/Samantha_Crespo_Resume.570c2295074ed8dff543.pdf",
+    "static/media/flatironcertificate.jpg": "/static/media/flatironcertificate.9631af6f1e1145568055.jpg",
+    "static/media/scLogo.png": "/static/media/scLogo.3b422ea1136a6fb9b688.png",
+    "static/media/pre.svg": "/static/media/pre.0e628a9042ad4758241c.svg",
+    "index.html": "/index.html",
+    "main.d2abf29d.css.map": "/static/css/main.d2abf29d.css.map",
+    "main.81856c4e.js.map": "/static/js/main.81856c4e.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2abf29d.css",
+    "static/js/main.81856c4e.js"
+  ]
+}

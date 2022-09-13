@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/samphoto.png";
-import headshot from "../../Assets/samheadshot.png";
+import h2 from "../../Assets/darkpink_headshot-modified.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
@@ -40,7 +40,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={headshot} className="img-fluid" alt="avatar" />
+              <img src={h2} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
