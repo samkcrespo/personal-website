@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import VN from "../../Assets/volunteer_network.png";
 import flatironCert from "../../Assets/flatironcertificate.jpg";
 
 function Projects() {
@@ -13,14 +13,21 @@ function Projects() {
         <h1 className="project-heading">
           My <strong className="teal">Projects & Certifications</strong>
         </h1>
-        <p className="teal">
+        {/* <p className="teal">
           Here are a few examples of my work. Some are mock-ups, some are
           functioning apps, SPAs, etc.
-        </p>
+        </p> */}
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col>
+        <p className="teal">
+        Project cards under construction :) Links are available for project repositories. 
+        </p></Col>
+          </Row>
+    
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath=""
+              // imgPath={{VN}}
               title="PetMatcher"
               description=""
               ghLink="https://github.com/samkcrespo/Phase-3-Project-Front-end-.git"
