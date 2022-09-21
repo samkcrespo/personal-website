@@ -42,7 +42,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col>
         <p className="teal">
-        Project cards under construction :) Links are available for project repositories. 
+        Project cards under construction :) Please view my github account to review projects.  
         </p></Col>
           </Row>
     
