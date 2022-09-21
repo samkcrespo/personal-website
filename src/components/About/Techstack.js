@@ -17,6 +17,7 @@ import {
   SiVisualstudiocode,
   SiGithub,
   SiVisualstudio,
+  ImGit
 } from "react-icons/si";
 // import { GrHostMaintenance } from "react-icons/gr";
 
@@ -84,8 +85,12 @@ function Techstack() {
         <p className="tech-text">Visual Studio Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <ImGit />
+        <p className="tech-text">Git</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
-        <p className="tech-text">Github/Git</p>
+        <p className="tech-text">Github</p>
       </Col>
     </Row>
   );
