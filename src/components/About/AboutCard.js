@@ -22,11 +22,6 @@ function AboutCard() {
           web applications.
           <br />
         </p>
-        <p style={{ textAlign: "center" }}>
-          I enjoy both frontend and backend development
-          <span className="teal"> equally.</span>
-          <br />
-        </p>
         <p style={{ textAlign: "justify" }}>
           <br />
         </p>
