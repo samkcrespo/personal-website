@@ -9,7 +9,7 @@ import flatironCert from "../../Assets/flatironcertificate.jpg";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.image} alt="card-img" />
+      {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

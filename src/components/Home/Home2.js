@@ -16,7 +16,7 @@ function Home2() {
               Who Am <span className="teal"> I? </span>
             </h1>
             <p className="home-about-body">
-              <br />I am a Software Engineer with a passion for desiging and
+              <br />I am a Software Engineer with a passion for designing and
               building applications. Programming is an art, and I enjoy bringing
               my ideas to life!
               <p>
